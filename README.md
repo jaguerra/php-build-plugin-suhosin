@@ -1,5 +1,5 @@
 
-PHPUnit Plugin for php-build
+Suhosin Plugin for php-build
 ============================
 
 [![Build Status](https://travis-ci.org/jaguerra/php-build-plugin-suhosin.png?branch=master)](https://travis-ci.org/jaguerra/php-build-plugin-suhosin)
