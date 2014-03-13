@@ -77,4 +77,8 @@ function _build_suhosin {
     cd "$cwd" > /dev/null
 }
 
-install_suhosin "0.9.35"
+if "$PREFIX/bin/php" -v | grep "PHP 5.2"; then
+		install_suhosin "0.9.28"
+else
+		install_suhosin "0.9.35"
+fi
